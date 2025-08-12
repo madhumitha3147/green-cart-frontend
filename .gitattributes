@@ -1,0 +1,5 @@
+# Set all text files to normalize to LF in repo, but convert to CRLF on checkout on Windows
+* text=auto
+
+# Ignore node_modules from Git (recommended)
+node_modules/** -text
